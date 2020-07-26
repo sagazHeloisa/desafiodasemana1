@@ -1,0 +1,26 @@
+body {
+    background-color: #4ca146;
+    color: white;
+    font-family: sans-serif;
+}
+p {
+    margin: 0;
+}
+.container {
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box1 p, .box1 div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.box1 img {
+    width: 350px;
+}
